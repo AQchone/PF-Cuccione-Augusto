@@ -12,6 +12,16 @@
     box-sizing: border-box;
 }
 
+.body_index,
+.body_ayuda,
+.body_sonidos,
+.body_albumes {
+    background-color: #000000;
+    background-image: url(../assets/fotos/pexels-dmitry-demidov-3784566.jpg);
+    background-size: 200%;
+    background-attachment: fixed;
+}
+
 /** titulos **/
 
 .firstcolor {
@@ -170,17 +180,6 @@ a {
     padding-bottom: 15px;
 }
 
-
-
-.body_index,
-.body_ayuda,
-.body_sonidos,
-.body_albumes {
-    background-color: #000000;
-    background-image: url(../assets/fotos/pexels-dmitry-demidov-3784566.jpg);
-    background-size: 200%;
-    background-attachment: fixed;
-}
 
 .lista {
     background-color: #000000;
