@@ -370,6 +370,8 @@ footer {
         align-items: center;
         justify-content: center;
         gap: 10px;
+        min-height: 50vh;
+        max-height: 50%;
     }
     .body_index,
     .body_ayuda,
@@ -411,7 +413,10 @@ footer {
         align-items: center;
         justify-content: center;
         gap: 5px;
+        min-height: 50vh;
+        max-height: 50%;
     }
+    
     .body_index,
     .body_ayuda,
     .body_sonidos,
