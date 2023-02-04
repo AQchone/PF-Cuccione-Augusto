@@ -1,0 +1,159 @@
+/*media queries*/
+@media only screen and (min-width: 160px) {
+    h1 {
+        color: #e00303;
+        font-family: 'Teko';
+        text-align: center;
+        font-size: 400%;
+    }
+
+    .contenedor {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        min-height: 50vh;
+        max-height: 50%;
+    }
+
+    .body_index,
+    .body_ayuda,
+    .body_sonidos,
+    .body_albumes {
+        background-size: 400%;
+        background-attachment: fixed;
+    }
+
+    .c1 {
+        width: 180px;
+        height: 70px;
+        margin: 20px;
+    }
+
+    .c2 {
+        width: 180px;
+        height: 70px;
+        margin: 20px;
+    }
+
+    .c3 {
+        width: 180px;
+        height: 70px;
+        margin: 20px;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    h1 {
+        color: #e00303;
+        font-family: 'Teko';
+        text-align: center;
+        font-size: 400%;
+    }
+
+    .contenedor {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        min-height: 50vh;
+        max-height: 50%;
+    }
+
+    .body_index,
+    .body_ayuda,
+    .body_sonidos,
+    .body_albumes {
+        background-size: 400%;
+        background-attachment: fixed;
+    }
+
+    .c1 {
+        width: 180px;
+        height: 70px;
+        margin: 20px;
+    }
+
+    .c2 {
+        width: 180px;
+        height: 70px;
+        margin: 20px;
+    }
+
+    .c3 {
+        width: 180px;
+        height: 70px;
+        margin: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 635px) {
+    h1 {
+        font-size: 500%;
+    }
+
+    .contenedor {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .body_index,
+    .body_ayuda,
+    .body_sonidos,
+    .body_albumes {
+        background-size: 300%;
+        background-attachment: fixed;
+    }
+
+    .c1 {
+        width: 140px;
+        height: 170px;
+    }
+
+    .c2 {
+        width: 140px;
+        height: 170px;
+    }
+
+    .c3 {
+        width: 140px;
+        height: 170px;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    .c1 {
+        width: 140px;
+        height: 170px;
+    }
+
+    .c2 {
+        width: 140px;
+        height: 170px;
+    }
+
+    .c3 {
+        width: 140px;
+        height: 170px;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .c1 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .c2 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .c3 {
+        width: 200px;
+        height: 200px;
+    }
+}

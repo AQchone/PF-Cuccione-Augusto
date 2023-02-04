@@ -1,0 +1,89 @@
+
+.firstcolor {
+    color: #e00303;
+    font-family: 'Teko';
+}
+
+.secondcolor {
+    color: #60ff87;
+    font-family: 'Teko';
+}
+
+header {
+    color: #000000;
+}
+
+p {
+    color: #60ff87;
+    font-family: 'Teko';
+    text-align: center;
+    font-size: 120%;
+}
+
+h1 {
+    color: #e00303;
+    font-family: 'Teko';
+    text-align: center;
+    font-size: 500%;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    font-family: 'Teko';
+
+}
+
+nav ul li a {
+    color: #f0f8ff;
+}
+
+.navlink {
+    transition: 1s;
+}
+
+.navlink :hover {
+    color: #00acee;
+    transition: 1s;
+}
+
+.navlink:hover {
+    transform: scale(1, 2);
+    transition: 1s;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.lista {
+    background-color: #000000;
+}
+
+
+h2 {
+    color: #e00303;
+    font-family: 'Teko';
+    text-align: center;
+    font-size: 300%;
+}
+
+h3 {
+    color: #17a633;
+    font-family: 'Teko';
+    font-size: 200%;
+}
+
+.S_header,
+.transp {
+    background-color: #000000;
+}

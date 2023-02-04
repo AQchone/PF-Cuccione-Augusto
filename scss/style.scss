@@ -1,0 +1,17 @@
+//import de base
+@import "./base/reset";
+@import "./base/vars";
+
+//import de componentes
+@import "./components/header";
+@import "./components/hero";
+@import "./components/footer";
+
+//import de layout
+@import "./layout/albumes";
+@import "./layout/index";
+@import "./layout/ayuda";
+@import "./layout/sonidos";
+
+//import de mediaqueries
+@import "./base/mediaqueries";

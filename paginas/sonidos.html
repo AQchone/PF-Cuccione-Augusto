@@ -13,31 +13,55 @@
 
 <body class="body_sonidos">
     <header>
-        <nav class="lista">
-            <ul>
-                <li>
+        <nav class="navbar navbar-dark bg-black fixed-top p-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
                     <span class="firstcolor">
                         Sound
                     </span>
                     <span class="secondcolor">stock</span>
-                </li>
-                <li class="navlink">
-                    <a href="../index.html">Inicio </a>
-                </li>
-                <li class="navlink">
-                    <a href="./albumes.html">Albumes de sonidos</a>
-                </li>
-                <li class="navlink">
-                    <a href="./ayuda.html">Ayuda</a>
-                </li>
-            </ul>
+                </a>
+                
+                    <section class="hero_section">
+                        <h2 class="text-success position-absolute top-1 start-50 translate-middle-x">Sonidos</h2>
+                    </section>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="offcanvas offcanvas-end bg-black" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title text-success" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="navlink">
+                                <a href="../index.html">Inicio </a>
+                            </li>
+                            <li class="navlink">
+                                <a href="./albumes.html">Albumes de sonidos</a>
+                            </li>
+                            <li class="navlink">
+                                <a href="./ayuda.html">Ayuda</a>
+                            </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="lista">
             <main class="main">
                 <section class="hero_section">
-                    <h2 class="p-4 text-success-emphasis ">Sonidos</h2>
+                    <h2 class="p-4"></h2>
                 </section>
             </main>
         </nav>
-
     </header>
 
     <div class="container text-center">
@@ -88,7 +112,7 @@
                 <p> </p>
                 <div class="contenedorbotondescarga">
                     <button type="download" class="Botondescarga">descargar</button>
-                </div>            
+                </div>
             </div>
             <div class="col">
                 <section class="section_sonidos">

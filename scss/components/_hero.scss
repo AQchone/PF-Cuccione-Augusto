@@ -1,0 +1,60 @@
+
+.body_index,
+.body_ayuda,
+.body_sonidos,
+.body_albumes {
+    background-color: #000000;
+    background-image: url(../assets/fotos/pexels-dmitry-demidov-3784566.jpg);
+    background-size: 200%;
+    background-attachment: fixed;
+}
+
+
+.hero_section {
+    background-color: #000000;
+}
+
+
+
+
+.reproductor {
+    align-content: center;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.contenedorbotondescarga {
+    text-align: center;
+    width: 100%;
+    padding-top: 0px;
+}
+
+.contenedorbotondescarga :hover {
+    color: #e00303;
+    transition: 1s;
+}
+
+.Botondescarga {
+    background-color: #17a633;
+    border: none;
+    color: white;
+    margin: 8px 0;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'teko';
+}
+

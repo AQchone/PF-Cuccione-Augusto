@@ -1,0 +1,77 @@
+
+footer {
+    background-color: #191919;
+    padding: 30px;
+    color: #fff;
+}
+
+.redes {
+    display: flex;
+}
+
+.facebook {
+    color: #ffffff;
+    font-size: 120%;
+}
+
+.facebook:hover {
+    color: #4267B2;
+    transition: 1s;
+}
+
+.instagram {
+    color: #ffffff;
+    font-size: 120%;
+}
+
+.instagram:hover {
+    color: #C13584;
+    transition: 1s;
+}
+
+.twitter {
+    color: #ffffff;
+    font-size: 120%;
+}
+
+.twitter:hover {
+    color: #00acee;
+    transition: 1s;
+}
+
+
+.email {
+    color: #e00303;
+    font-family: 'Teko';
+    text-align: center;
+    font-size: 100%;
+}
+
+.text_email {
+    font-family: 'Teko';
+    text-align: center;
+    font-size: 120%;
+}
+
+.joinbutton {
+    background-color: #aa0404;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    font-family: 'Teko';
+    font-size: 150%;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.joinbutton:hover {
+    color: #4bc369;
+    transition: 1s;
+}
+
+.form_email {
+    text-align: center;
+    font-family: 'Teko';
+}
