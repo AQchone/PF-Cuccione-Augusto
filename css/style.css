@@ -79,10 +79,7 @@ h3 {
 .transp {
   background-color: #000000; }
 
-.body_index,
-.body_ayuda,
-.body_sonidos,
-.body_albumes {
+.body {
   background-color: #000000;
   background-image: url(../assets/fotos/pexels-dmitry-demidov-3784566.jpg);
   background-size: 200%;
@@ -260,6 +257,7 @@ footer {
   margin: 50px;
   transition: 1s;
   border-radius: 10px; }
+  
 
 .color-c3 {
   color: #f0f8ff;
@@ -407,10 +405,7 @@ input:checked + .slide-container .nav label {
     gap: 10px;
     min-height: 50vh;
     max-height: 50%; }
-  .body_index,
-  .body_ayuda,
-  .body_sonidos,
-  .body_albumes {
+  .body {
     background-size: 400%;
     background-attachment: fixed; }
   .c1 {
@@ -439,10 +434,7 @@ input:checked + .slide-container .nav label {
     gap: 5px;
     min-height: 50vh;
     max-height: 50%; }
-  .body_index,
-  .body_ayuda,
-  .body_sonidos,
-  .body_albumes {
+  .body {
     background-size: 400%;
     background-attachment: fixed; }
   .c1 {
@@ -466,10 +458,7 @@ input:checked + .slide-container .nav label {
     align-items: center;
     justify-content: center;
     gap: 30px; }
-  .body_index,
-  .body_ayuda,
-  .body_sonidos,
-  .body_albumes {
+  .body {
     background-size: 300%;
     background-attachment: fixed; }
   .c1 {
