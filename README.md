@@ -1,3 +1,40 @@
+## Iniciar GIT
+
+colocamos lo siguiente 
+
+```
+git init
+```
+despues de eso agregamos todos los cambios a git con
+
+
+```
+git add .
+```
+hacemos un commit con lo que modificaron
+
+```
+git commit -m "primer commit"
+```
+
+y unimos el git al master 
+
+
+```
+git branch -m main / master
+```
+
+despues agregamos el git a github
+
+```
+git remote add origin "https..."
+```
+y pandamos todo los archivos a github
+
+```
+git push -u origin main / master
+```
+
 ## Instalacion
 
 Instalamos npm en el proyecto
