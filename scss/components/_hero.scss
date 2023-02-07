@@ -1,3 +1,5 @@
+/*imports*/
+@import "./base/vars";
 
 .body{
     background-color: #000000;
@@ -12,16 +14,14 @@
 }
 
 
-
-
 .reproductor {
-    align-content: center;
+    align-content: $content;
 }
 
 .images {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: $d-flex;
+    align-items: $content;
+    justify-content: $content;
 }
 
 img {
@@ -31,7 +31,7 @@ img {
 
 
 .contenedorbotondescarga {
-    text-align: center;
+    text-align: $content;
     width: 100%;
     padding-top: 0px;
 }
@@ -47,7 +47,7 @@ img {
     color: white;
     margin: 8px 0;
     padding: 15px 32px;
-    text-align: center;
+    text-align: $content;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;

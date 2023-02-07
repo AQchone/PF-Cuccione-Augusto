@@ -79,6 +79,7 @@ h3 {
 .transp {
   background-color: #000000; }
 
+/*imports*/
 .body {
   background-color: #000000;
   background-image: url(../assets/fotos/pexels-dmitry-demidov-3784566.jpg);
@@ -257,7 +258,6 @@ footer {
   margin: 50px;
   transition: 1s;
   border-radius: 10px; }
-  
 
 .color-c3 {
   color: #f0f8ff;
