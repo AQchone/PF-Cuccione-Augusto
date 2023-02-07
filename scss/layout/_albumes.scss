@@ -1,5 +1,16 @@
+@import "./base/vars";
 
 .section_albumes {
     align-content: center;
     text-align: center;
+}
+
+.reproductor{
+    margin: 0 auto; 
+display: block;
+inline-size: -webkit-fill-available;
+}
+
+.mask{
+    background-color: $card-color;
 }
