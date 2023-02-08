@@ -195,11 +195,8 @@ footer {
   display: block;
   inline-size: -webkit-fill-available; }
 
-.mask {
-  background-color: #273e2d; }
-
-.card-color {
-  background-color: #273e2d; }
+.card {
+  padding: 10px; }
 
 /** Index Hub **/
 .contenedor {
