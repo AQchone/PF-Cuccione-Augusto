@@ -82,7 +82,7 @@ h3 {
 /*imports*/
 .body {
   background-color: #000000;
-  background-image: url(../assets/fotos/pexels-dmitry-demidov-3784566.jpg);
+  background-image: url(../assets/fotos/pexels-dmitry-demidov-3784566.webp);
   background-size: 200%;
   background-attachment: fixed; }
 
@@ -213,7 +213,7 @@ footer {
 
 .c1 {
   background-color: #000000;
-  background-image: url(../assets/fotos/pexels-pixabay-164769.jpg);
+  background-image: url(../assets/fotos/pexels-pixabay-164769.webp);
   align-items: center;
   justify-content: center;
   width: 140px;
@@ -235,7 +235,7 @@ footer {
 
 .c2 {
   background-color: #000000;
-  background-image: url(../assets/fotos/pexels-suvan-chowdhury-144428.jpg);
+  background-image: url(../assets/fotos/pexels-suvan-chowdhury-144428.webp);
   width: 140px;
   height: 170px;
   display: flex;
@@ -257,7 +257,7 @@ footer {
 
 .c3 {
   background-color: #000000;
-  background-image: url(../assets/fotos/pexels-photo-352505.jpg);
+  background-image: url(../assets/fotos/pexels-photo-352505.webp);
   width: 140px;
   height: 170px;
   display: flex;
