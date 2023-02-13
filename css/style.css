@@ -446,7 +446,7 @@ input:checked + .slide-container .nav label {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 1px 2px 5px 0px rgba(202, 202, 202, 0.75);
+  box-shadow: 2px 3px 6px 0px #000000;
   transition: 1s; }
 
 .galeria__item-1 {
