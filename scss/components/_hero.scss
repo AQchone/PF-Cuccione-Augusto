@@ -2,14 +2,14 @@
 @import "./base/vars";
 
 .body{
-    background-color: #000000;
+    background-color: $black-color;
     background-image: url(../assets/fotos/pexels-dmitry-demidov-3784566.webp);
     background-size: 200%;
     background-attachment: fixed;
 }
 
 .hero_section {
-    background-color: #000000;
+    background-color: $black-color;
 }
 
 
@@ -36,14 +36,14 @@ img {
 }
 
 .contenedorbotondescarga :hover {
-    color: #e00303;
+    color: $first-color;
     transition: 1s;
 }
 
 .Botondescarga {
     background-color: #17a633;
     border: none;
-    color: white;
+    color: $white-color;
     margin: 8px 0;
     padding: 15px 32px;
     text-align: $content;

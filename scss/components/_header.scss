@@ -10,18 +10,18 @@
 }
 
 header {
-    color: #000000;
+    color: $black-color;
 }
 
 p {
-    color: #60ff87;
+    color: $second-color;
     font-family: 'Teko';
     text-align: center;
     font-size: 120%;
 }
 
 h1 {
-    color: #e00303;
+    color: $first-color;
     font-family: 'Teko';
     text-align: center;
     font-size: 500%;
@@ -39,7 +39,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #f0f8ff;
+    color: $white-color;
 }
 
 .navlink {
@@ -47,7 +47,7 @@ nav ul li a {
 }
 
 .navlink :hover {
-    color: #00acee;
+    color: $first-color;
     transition: 1s;
 }
 
@@ -66,24 +66,24 @@ a {
 
 
 .lista {
-    background-color: #000000;
+    background-color: $black-color;
 }
 
 
 h2 {
-    color: #e00303;
+    color: $first-color;
     font-family: 'Teko';
     text-align: center;
     font-size: 300%;
 }
 
 h3 {
-    color: #17a633;
+    color: $alt-color;
     font-family: 'Teko';
     font-size: 200%;
 }
 
 .S_header,
 .transp {
-    background-color: #000000;
+    background-color: $black-color;
 }

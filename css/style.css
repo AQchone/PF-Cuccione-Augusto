@@ -9,6 +9,8 @@
   padding: 0;
   box-sizing: border-box; }
 
+/*colores*/
+/*contenido variables*/
 .firstcolor {
   color: #e00303;
   font-family: 'Teko'; }
@@ -41,13 +43,13 @@ nav ul li {
   font-family: 'Teko'; }
 
 nav ul li a {
-  color: #f0f8ff; }
+  color: #ffffff; }
 
 .navlink {
   transition: 1s; }
 
 .navlink :hover {
-  color: #00acee;
+  color: #e00303;
   transition: 1s; }
 
 .navlink:hover {
@@ -80,6 +82,8 @@ h3 {
   background-color: #000000; }
 
 /*imports*/
+/*colores*/
+/*contenido variables*/
 .body {
   background-color: #000000;
   background-image: url(../assets/fotos/pexels-dmitry-demidov-3784566.webp);
@@ -113,7 +117,7 @@ img {
 .Botondescarga {
   background-color: #17a633;
   border: none;
-  color: white;
+  color: #ffffff;
   margin: 8px 0;
   padding: 15px 32px;
   text-align: center;
@@ -124,9 +128,9 @@ img {
   font-family: 'teko'; }
 
 footer {
-  background-color: #191919;
+  background-color: #282828;
   padding: 30px;
-  color: #fff; }
+  color: #ffffff; }
 
 .redes {
   display: flex; }
@@ -170,8 +174,8 @@ footer {
   font-size: 120%; }
 
 .joinbutton {
-  background-color: #aa0404;
-  color: white;
+  background-color: #e00303;
+  color: #ffffff;
   padding: 16px 20px;
   margin: 8px 0;
   font-family: 'Teko';
@@ -182,13 +186,15 @@ footer {
   opacity: 0.9; }
 
 .joinbutton:hover {
-  color: #4bc369;
+  color: #17a633;
   transition: 1s; }
 
 .form_email {
   text-align: center;
   font-family: 'Teko'; }
 
+/*colores*/
+/*contenido variables*/
 .section_albumes {
   align-content: center;
   text-align: center; }
@@ -207,7 +213,7 @@ footer {
   background: linear-gradient(180deg, #00000000, #000000);
   min-height: 100vh;
   max-height: 100%;
-  color: #fff;
+  color: #ffffff;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -227,7 +233,7 @@ footer {
   border-radius: 10px; }
 
 .color-c1 {
-  color: #f0f8ff;
+  color: #ffffff;
   font-family: 'Teko';
   text-align: center; }
 
@@ -249,7 +255,7 @@ footer {
   border-radius: 10px; }
 
 .color-c2 {
-  color: #f0f8ff;
+  color: #ffffff;
   font-family: 'Teko';
   text-align: center; }
 
@@ -271,7 +277,7 @@ footer {
   border-radius: 10px; }
 
 .color-c3 {
-  color: #f0f8ff;
+  color: #ffffff;
   font-family: 'Teko';
   text-align: center; }
 
@@ -324,7 +330,7 @@ ul.slides input {
   z-index: 999;
   font-size: 100px;
   line-height: 600px;
-  color: #fa0000; }
+  color: #e00303; }
 
 .carousel-controls label {
   display: none;
@@ -364,7 +370,7 @@ ul.slides input {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: rgba(167, 32, 32, 0.916);
+  background-color: #e00303;
   opacity: 0.5;
   margin: 10px;
   cursor: pointer; }
@@ -401,6 +407,83 @@ input:checked + .slide-container .nav label {
 .section_sonidos {
   align-content: center;
   text-align: center; }
+
+.mainGaleria {
+  height: auto;
+  background-color: #222222; }
+
+.gale {
+  height: 10rem; }
+
+.gale__titulo {
+  font-family: "Teko";
+  color: #ffffff;
+  font-size: 4.375em;
+  text-align: center;
+  margin: 0;
+  padding-top: 5.625rem;
+  padding-top: 2rem; }
+
+.carousel {
+  margin-top: 60px; }
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: minmax(250px, auto);
+  gap: 15px;
+  padding: 20px;
+  grid-auto-flow: dense;
+  background-color: #222222; }
+
+.galeria__item-1, .galeria__item-2, .galeria__item-3, .galeria__item-4, .galeria__item-5, .galeria__item-6, .galeria__item-7, .galeria__item-8, .galeria__item-9, .galeria__item-10 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../imagenes/galeria4.jpg);
+  align-content: center;
+  border-radius: 2px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 2px 5px 0px rgba(202, 202, 202, 0.75);
+  transition: 1s; }
+
+.galeria__item-1 {
+  background-color: #17a633; }
+
+.galeria__item-2 {
+  background-color: #e00303; }
+
+.galeria__item-3 {
+  background-color: #17a633; }
+
+.galeria__item-4 {
+  background-color: #e00303; }
+
+.galeria__item-5 {
+  background-color: #17a633; }
+
+.galeria__item-6 {
+  background-color: #e00303; }
+
+.galeria__item-7 {
+  background-color: #17a633; }
+
+.galeria__item-8 {
+  background-color: #e00303; }
+
+.galeria__item-9 {
+  background-color: #17a633; }
+
+.wide {
+  grid-column: span 2; }
+
+.galeria div {
+  transition: 1s; }
+
+.galeria div:hover {
+  transform: scale(1.03); }
 
 /*media queries*/
 @media only screen and (min-width: 160px) {

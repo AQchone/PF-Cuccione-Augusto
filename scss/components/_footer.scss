@@ -1,16 +1,17 @@
 
 footer {
-    background-color: #191919;
+    background-color: $grey-color;
     padding: 30px;
-    color: #fff;
+    color: $white-color;
 }
+
 
 .redes {
     display: flex;
 }
 
 .facebook {
-    color: #ffffff;
+    color: $white-color;
     font-size: 300%;
 }
 
@@ -21,7 +22,7 @@ footer {
 }
 
 .instagram {
-    color: #ffffff;
+    color: $white-color;
     font-size: 300%;
 }
 
@@ -32,7 +33,7 @@ footer {
 }
 
 .twitter {
-    color: #ffffff;
+    color: $white-color;
     font-size: 300%;
 }
 
@@ -44,7 +45,7 @@ footer {
 
 
 .email {
-    color: #e00303;
+    color: $first-color;
     font-family: 'Teko';
     text-align: center;
     font-size: 100%;
@@ -57,8 +58,8 @@ footer {
 }
 
 .joinbutton {
-    background-color: #aa0404;
-    color: white;
+    background-color: $first-color;
+    color: $white-color;
     padding: 16px 20px;
     margin: 8px 0;
     font-family: 'Teko';
@@ -70,7 +71,7 @@ footer {
 }
 
 .joinbutton:hover {
-    color: #4bc369;
+    color: $alt-color;
     transition: 1s;
 }
 
