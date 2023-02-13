@@ -1,4 +1,3 @@
-
 /** Index Hub **/
 .contenedor {
     background-size: cover;
@@ -190,7 +189,7 @@ ul.slides input {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color:$first-color;
+    background-color: $first-color;
     opacity: 0.5;
     margin: 10px;
     cursor: pointer;
@@ -208,7 +207,7 @@ input:checked+.slide-container .carousel-controls label {
 
 input#img-1:checked~.carousel-dots label#img-dot-1,
 input#img-2:checked~.carousel-dots label#img-dot-2,
-input#img-3:checked~.carousel-dots label#img-dot-3{
+input#img-3:checked~.carousel-dots label#img-dot-3 {
     opacity: 1;
     cursor: pointer;
 }

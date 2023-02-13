@@ -424,9 +424,6 @@ input:checked + .slide-container .nav label {
   padding-top: 5.625rem;
   padding-top: 2rem; }
 
-.carousel {
-  margin-top: 60px; }
-
 .galeria {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
