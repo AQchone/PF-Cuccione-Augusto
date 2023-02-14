@@ -437,7 +437,6 @@ input:checked + .slide-container .nav label {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../imagenes/galeria4.jpg);
   align-content: center;
   border-radius: 2px;
   background-size: cover;
