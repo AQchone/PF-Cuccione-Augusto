@@ -232,14 +232,16 @@ input:checked+.slide-container .nav label {
     align-content: center;
     border-radius: 2px;
     background-size: cover;
-    background-position: 65%;
+    background-position: center;
     background-repeat: no-repeat;
     transition: 1s; }
     .inicio__item-2 {
     background-image: url(../assets/fotos/fotosindex/pexels-cottonbro-studio-7088374-_1_.webp);
+    background-position: 65%;
     grid-row: span 1 }
     .inicio__item-3 {
     background-image: url(../assets/fotos/fotosindex/pexels-davide-de-giovanni-1649691-_1_.webp);
+    background-position: 65%;
     grid-row: span 1;}
     .inicio__item-4 {
     background-image: url(../assets/fotos/fotosindex/pexels-pixabay-210887-_1_.webp);
