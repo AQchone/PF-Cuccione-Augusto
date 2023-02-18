@@ -14,13 +14,9 @@
 }
 
 .c1 {
-    background-color: #000000;
+    @include tamanio (140px, 170px,$black-color);
     background-image: url(../assets/fotos/pexels-pixabay-164769.webp);
-    align-items: center;
-    justify-content: center;
-    width: 140px;
-    height: 170px;
-    display: flex;
+    @include indexhub (flex, center, center);
     margin: 50px;
     transition: 1s;
     border-radius: 10px;
@@ -39,13 +35,9 @@
 }
 
 .c2 {
-    background-color: #000000;
+    @include tamanio (140px, 170px,$black-color);
     background-image: url(../assets/fotos/pexels-suvan-chowdhury-144428.webp);
-    width: 140px;
-    height: 170px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include indexhub (flex, center, center);
     margin: 50px;
     transition: 1s;
     border-radius: 10px;
@@ -64,13 +56,9 @@
 }
 
 .c3 {
-    background-color: #000000;
+    @include tamanio (140px, 170px,$black-color);
     background-image: url(../assets/fotos/pexels-photo-352505.webp);
-    width: 140px;
-    height: 170px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include indexhub (flex, center, center);
     margin: 50px;
     transition: 1s;
     border-radius: 10px;

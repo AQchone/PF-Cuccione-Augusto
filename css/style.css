@@ -237,13 +237,13 @@ footer {
   gap: 30px; }
 
 .c1 {
+  width: 170px;
+  height: 140px;
   background-color: #000000;
   background-image: url(../assets/fotos/pexels-pixabay-164769.webp);
+  display: flex;
   align-items: center;
   justify-content: center;
-  width: 140px;
-  height: 170px;
-  display: flex;
   margin: 50px;
   transition: 1s;
   border-radius: 10px; }
@@ -259,10 +259,10 @@ footer {
   box-shadow: 5px 5px 5px 5px #00000051; }
 
 .c2 {
+  width: 170px;
+  height: 140px;
   background-color: #000000;
   background-image: url(../assets/fotos/pexels-suvan-chowdhury-144428.webp);
-  width: 140px;
-  height: 170px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -281,10 +281,10 @@ footer {
   box-shadow: 5px 5px 5px 5px #00000051; }
 
 .c3 {
+  width: 170px;
+  height: 140px;
   background-color: #000000;
   background-image: url(../assets/fotos/pexels-photo-352505.webp);
-  width: 140px;
-  height: 170px;
   display: flex;
   align-items: center;
   justify-content: center;

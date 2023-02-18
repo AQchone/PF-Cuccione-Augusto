@@ -1,0 +1,12 @@
+@mixin tamanio($alto,$ancho,$bg){
+    width: $ancho ;
+    height: $alto ;
+    background-color: $bg;
+}
+
+@mixin indexhub($disp,$alignit,$jc){
+    display: $disp;
+    align-items: $alignit;
+    justify-content: $jc;
+}
+
