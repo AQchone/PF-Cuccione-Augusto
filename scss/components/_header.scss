@@ -1,4 +1,4 @@
-
+/*colores y fonts principales*/
 .firstcolor {
     color: $first-color;
     font-family: 'Teko';
@@ -20,6 +20,8 @@ p {
     font-size: 120%;
 }
 
+/*H*/
+
 h1 {
     color: $first-color;
     font-family: 'Teko';
@@ -27,6 +29,31 @@ h1 {
     font-size: 500%;
 
 }
+
+h2 {
+    color: $first-color;
+    font-family: 'Teko';
+    text-align: center;
+    font-size: 300%;
+}
+
+h3 {
+    color: $alt-color;
+    font-family: 'Teko';
+    font-size: 200%;
+}
+
+/*A*/
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*NAV*/
 
 nav ul li {
     display: inline-block;
@@ -56,34 +83,24 @@ nav ul li a {
     transition: 1s;
 }
 
-a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
 
+/*lista*/
 
 .lista {
     background-color: $black-color;
 }
 
-
-h2 {
-    color: $first-color;
-    font-family: 'Teko';
-    text-align: center;
-    font-size: 300%;
-}
-
-h3 {
-    color: $alt-color;
-    font-family: 'Teko';
-    font-size: 200%;
-}
+/*fondo de texto inicio*/
 
 .S_header,
 .transp {
     background-color: $black-color;
+}
+
+/*reproductor multimedia*/
+
+.reproductor{
+    margin: 0 auto; 
+display: block;
+inline-size: -webkit-fill-available;
 }

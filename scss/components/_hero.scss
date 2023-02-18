@@ -1,6 +1,8 @@
 /*imports*/
 @import "./base/vars";
 
+/*fondo de pagina*/
+
 .body{
     background-color: $black-color;
     background-image: url(../assets/fotos/pexels-dmitry-demidov-3784566.webp);
@@ -13,10 +15,7 @@
 }
 
 
-.reproductor {
-    align-content: $content;
-}
-
+/* imagenes */
 .images {
     display: $d-flex;
     align-items: $content;
@@ -28,6 +27,13 @@ img {
     height: auto;
 }
 
+/*reproductor multimedial*/
+
+.reproductor {
+    align-content: $content;
+}
+
+/*contenedor de descarga*/
 
 .contenedorbotondescarga {
     text-align: $content;
@@ -40,6 +46,7 @@ img {
     transition: 1s;
 }
 
+/*boton de descarga*/
 .Botondescarga {
     background-color: #17a633;
     border: none;
