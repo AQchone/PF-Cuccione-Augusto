@@ -624,7 +624,7 @@ input:checked + .slide-container .nav label {
   .inicio__text-1 {
     grid-column: span 4; } }
 
-@media only screen and (min-width: 635px) {
+@media only screen and (min-width: 700px) {
   h1 {
     font-size: 500%; }
   .contenedor {
@@ -695,4 +695,15 @@ input:checked + .slide-container .nav label {
     height: 200px; }
   .c3 {
     width: 200px;
-    height: 200px; } }
+    height: 200px; }
+  .inicio__item-2 {
+    background-position: 65%;
+    grid-row: span 1; }
+  .inicio__item-3 {
+    background-position: 65%;
+    grid-row: span 1; }
+  .inicio__item-4 {
+    background-position: 35%;
+    grid-row: span 1; }
+  .inicio__text-1 {
+    grid-row: span 1; } }
