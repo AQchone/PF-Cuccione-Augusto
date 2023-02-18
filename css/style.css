@@ -548,10 +548,20 @@ input:checked + .slide-container .nav label {
     width: 180px;
     height: 70px;
     margin: 20px; }
-  .inicio {
-    display: flex;
-    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
-    grid-auto-rows: minmax(50px, auto); } }
+  .inicio__item-2 {
+    background-position: 65%;
+    grid-column: span 4;
+    height: 500px; }
+  .inicio__item-3 {
+    background-position: 65%;
+    grid-column: span 4;
+    height: 500px; }
+  .inicio__item-4 {
+    background-position: 35%;
+    grid-column: span 4;
+    height: 500px; }
+  .inicio__text-1 {
+    grid-column: span 4; } }
 
 @media only screen and (min-width: 320px) {
   h1 {
@@ -581,11 +591,20 @@ input:checked + .slide-container .nav label {
     width: 180px;
     height: 70px;
     margin: 20px; }
-    .inicio {
-      display: flex;
-      grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
-      grid-auto-rows: minmax(50px, auto); }
-}
+  .inicio__item-2 {
+    background-position: 65%;
+    grid-column: span 4;
+    height: 500px; }
+  .inicio__item-3 {
+    background-position: 65%;
+    grid-column: span 4;
+    height: 500px; }
+  .inicio__item-4 {
+    background-position: 35%;
+    grid-column: span 4;
+    height: 500px; }
+  .inicio__text-1 {
+    grid-column: span 4; } }
 
 @media only screen and (min-width: 635px) {
   h1 {
@@ -607,7 +626,25 @@ input:checked + .slide-container .nav label {
   .c3 {
     width: 140px;
     height: 170px; }
-}
+  .inicio__item-2 {
+    background-position: 65%;
+    grid-row: span 1;
+    grid-column: span 1;
+    height: auto; }
+  .inicio__item-3 {
+    background-position: 65%;
+    grid-row: span 1;
+    grid-column: span 1;
+    height: auto; }
+  .inicio__item-4 {
+    background-position: 35%;
+    grid-row: span 1;
+    grid-column: span 1;
+    height: auto; }
+  .inicio__text-1 {
+    grid-row: span 1;
+    grid-column: span 1;
+    height: auto; } }
 
 @media only screen and (min-width: 760px) {
   .c1 {
@@ -619,10 +656,17 @@ input:checked + .slide-container .nav label {
   .c3 {
     width: 140px;
     height: 170px; }
-  .inicio {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
-    grid-auto-rows: minmax(50px, auto); } }
+  .inicio__item-2 {
+    background-position: 65%;
+    grid-row: span 1; }
+  .inicio__item-3 {
+    background-position: 65%;
+    grid-row: span 1; }
+  .inicio__item-4 {
+    background-position: 35%;
+    grid-row: span 1; }
+  .inicio__text-1 {
+    grid-row: span 1; } }
 
 @media only screen and (min-width: 1080px) {
   .c1 {
@@ -634,10 +678,3 @@ input:checked + .slide-container .nav label {
   .c3 {
     width: 200px;
     height: 200px; } }
-
-    @media only screen and (min-width: 2300px) {
-      .inicio {
-        display: flex;
-        grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
-        grid-auto-rows: minmax(50px, auto); }
-    }
