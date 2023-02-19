@@ -48,6 +48,7 @@ footer {
 .email {
     color: $first-color;
     font-family: $font;
+    font-display:auto;
     text-align: center;
     font-size: 100%;
 }
@@ -55,6 +56,7 @@ footer {
 .text_email {
     font-family: $font;
     text-align: center;
+    font-display:auto;
     font-size: 120%;
 }
 
@@ -64,6 +66,7 @@ footer {
     padding: 16px 20px;
     margin: 8px 0;
     font-family: $font;
+    font-display:auto;
     font-size: 150%;
     border: none;
     cursor: pointer;
@@ -79,4 +82,5 @@ footer {
 .form_email {
     text-align: center;
     font-family: $font;
+    font-display:auto;
 }

@@ -15,11 +15,13 @@
 /*colores y fonts principales*/
 .firstcolor {
   color: #e00303;
-  font-family: "kanit"; }
+  font-family: "kanit";
+  font-display: auto; }
 
 .secondcolor {
   color: #60ff87;
-  font-family: "kanit"; }
+  font-family: "kanit";
+  font-display: auto; }
 
 header {
   color: #000000; }
@@ -27,6 +29,7 @@ header {
 p {
   color: #60ff87;
   font-family: "kanit";
+  font-display: auto;
   text-align: center;
   font-size: 120%; }
 
@@ -34,18 +37,21 @@ p {
 h1 {
   color: #e00303;
   font-family: "kanit";
+  font-display: auto;
   text-align: center;
   font-size: 500%; }
 
 h2 {
   color: #e00303;
   font-family: "kanit";
+  font-display: auto;
   text-align: center;
   font-size: 300%; }
 
 h3 {
   color: #17a633;
   font-family: "kanit";
+  font-display: auto;
   font-size: 200%; }
 
 /*A*/
@@ -145,7 +151,8 @@ img {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  font-family: "kanit"; }
+  font-family: "kanit";
+  font-display: auto; }
 
 /*Footer*/
 footer {
@@ -188,12 +195,14 @@ footer {
 .email {
   color: #e00303;
   font-family: "kanit";
+  font-display: auto;
   text-align: center;
   font-size: 100%; }
 
 .text_email {
   font-family: "kanit";
   text-align: center;
+  font-display: auto;
   font-size: 120%; }
 
 .joinbutton {
@@ -202,6 +211,7 @@ footer {
   padding: 16px 20px;
   margin: 8px 0;
   font-family: "kanit";
+  font-display: auto;
   font-size: 150%;
   border: none;
   cursor: pointer;
@@ -214,7 +224,8 @@ footer {
 
 .form_email {
   text-align: center;
-  font-family: "kanit"; }
+  font-family: "kanit";
+  font-display: auto; }
 
 /*colores*/
 /*contenido variables*/
@@ -255,7 +266,8 @@ footer {
 .color-c1 {
   color: #ffffff;
   font-family: "kanit";
-  text-align: center; }
+  text-align: center;
+  font-display: auto; }
 
 .c1:hover {
   transform: scale(1.5, 1.5);
@@ -277,7 +289,8 @@ footer {
 .color-c2 {
   color: #ffffff;
   font-family: "kanit";
-  text-align: center; }
+  text-align: center;
+  font-display: auto; }
 
 .c2:hover {
   transform: scale(1.5, 1.5);
@@ -299,6 +312,7 @@ footer {
 .color-c3 {
   color: #ffffff;
   font-family: "kanit";
+  font-display: auto;
   text-align: center; }
 
 .c3:hover {
@@ -454,6 +468,7 @@ input:checked + .slide-container .nav label {
 .section_ayuda {
   color: #e00303;
   font-family: "kanit";
+  font-display: auto;
   text-align: center;
   font-size: 100%; }
 
@@ -476,6 +491,7 @@ input:checked + .slide-container .nav label {
 
 .gale__titulo {
   font-family: "kanit";
+  font-display: auto;
   color: #ffffff;
   font-size: 4.375em;
   text-align: center;
@@ -546,6 +562,7 @@ input:checked + .slide-container .nav label {
   h1 {
     color: #e00303;
     font-family: "kanit";
+    font-display: auto;
     text-align: center;
     font-size: 400%; }
   .contenedor {
@@ -589,6 +606,7 @@ input:checked + .slide-container .nav label {
   h1 {
     color: #e00303;
     font-family: "kanit";
+    font-display: auto;
     text-align: center;
     font-size: 400%; }
   .contenedor {
