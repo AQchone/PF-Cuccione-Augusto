@@ -472,10 +472,7 @@ input:checked + .slide-container .nav label {
   text-align: center;
   font-size: 100%; }
 
-.ayuda1 {
-  background-color: #00000097; }
-
-.ayuda2 {
+.ayuda1, .ayuda2 {
   background-color: #00000097; }
 
 .section_sonidos {
