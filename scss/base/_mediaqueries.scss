@@ -2,7 +2,7 @@
 @media only screen and (min-width: 160px) {
     h1 {
         color: $first-color;
-        font-family: 'Teko';
+        font-family: $font;
         text-align: center;
         font-size: 400%;
     }
@@ -59,7 +59,7 @@
 @media only screen and (min-width: 320px) {
     h1 {
         color: $first-color;
-        font-family: 'Teko';
+        font-family: $font;
         text-align: center;
         font-size: 400%;
     }

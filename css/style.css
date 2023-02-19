@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap");
 @font-face {
-  font-family: Teko;
-  src: url(../assets/font/Teko-SemiBold.ttf); }
+  font-family: Kanit;
+  src: url(../../assets/font/Kanit-Regular.ttf); }
 
 /** inicio **/
 * {
@@ -11,40 +11,41 @@
 
 /*colores*/
 /*contenido variables*/
+/*font*/
 /*colores y fonts principales*/
 .firstcolor {
   color: #e00303;
-  font-family: 'Teko'; }
+  font-family: "kanit"; }
 
 .secondcolor {
   color: #60ff87;
-  font-family: 'Teko'; }
+  font-family: "kanit"; }
 
 header {
   color: #000000; }
 
 p {
   color: #60ff87;
-  font-family: 'Teko';
+  font-family: "kanit";
   text-align: center;
   font-size: 120%; }
 
 /*H*/
 h1 {
   color: #e00303;
-  font-family: 'Teko';
+  font-family: "kanit";
   text-align: center;
   font-size: 500%; }
 
 h2 {
   color: #e00303;
-  font-family: 'Teko';
+  font-family: "kanit";
   text-align: center;
   font-size: 300%; }
 
 h3 {
   color: #17a633;
-  font-family: 'Teko';
+  font-family: "kanit";
   font-size: 200%; }
 
 /*A*/
@@ -62,7 +63,7 @@ nav ul li {
   padding-top: 15px;
   padding-bottom: 15px;
   text-decoration: none;
-  font-family: 'Teko'; }
+  font-family: "kanit"; }
 
 nav ul li a {
   color: #ffffff; }
@@ -96,11 +97,13 @@ nav ul li a {
 /*imports*/
 /*colores*/
 /*contenido variables*/
+/*font*/
 /*fondo de pagina*/
 .body {
   background-color: #000000;
   background-image: url(../assets/fotos/pexels-dmitry-demidov-3784566.webp);
-  background-size: 200%;
+  background-position: 50%;
+  background-size: 100%;
   background-attachment: fixed; }
 
 .hero_section {
@@ -142,7 +145,7 @@ img {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  font-family: 'teko'; }
+  font-family: "kanit"; }
 
 /*Footer*/
 footer {
@@ -184,12 +187,12 @@ footer {
 /*Formulario*/
 .email {
   color: #e00303;
-  font-family: 'Teko';
+  font-family: "kanit";
   text-align: center;
   font-size: 100%; }
 
 .text_email {
-  font-family: 'Teko';
+  font-family: "kanit";
   text-align: center;
   font-size: 120%; }
 
@@ -198,7 +201,7 @@ footer {
   color: #ffffff;
   padding: 16px 20px;
   margin: 8px 0;
-  font-family: 'Teko';
+  font-family: "kanit";
   font-size: 150%;
   border: none;
   cursor: pointer;
@@ -211,10 +214,11 @@ footer {
 
 .form_email {
   text-align: center;
-  font-family: 'Teko'; }
+  font-family: "kanit"; }
 
 /*colores*/
 /*contenido variables*/
+/*font*/
 .section_albumes {
   align-content: center;
   text-align: center; }
@@ -250,7 +254,7 @@ footer {
 
 .color-c1 {
   color: #ffffff;
-  font-family: 'Teko';
+  font-family: "kanit";
   text-align: center; }
 
 .c1:hover {
@@ -272,7 +276,7 @@ footer {
 
 .color-c2 {
   color: #ffffff;
-  font-family: 'Teko';
+  font-family: "kanit";
   text-align: center; }
 
 .c2:hover {
@@ -294,7 +298,7 @@ footer {
 
 .color-c3 {
   color: #ffffff;
-  font-family: 'Teko';
+  font-family: "kanit";
   text-align: center; }
 
 .c3:hover {
@@ -449,7 +453,7 @@ input:checked + .slide-container .nav label {
 
 .section_ayuda {
   color: #e00303;
-  font-family: 'Teko';
+  font-family: "kanit";
   text-align: center;
   font-size: 100%; }
 
@@ -471,7 +475,7 @@ input:checked + .slide-container .nav label {
   height: 10rem; }
 
 .gale__titulo {
-  font-family: "Teko";
+  font-family: "kanit";
   color: #ffffff;
   font-size: 4.375em;
   text-align: center;
@@ -487,7 +491,7 @@ input:checked + .slide-container .nav label {
   gap: 15px;
   padding: 20px;
   grid-auto-flow: dense;
-  background-color: #222222; }
+  background-color: #00000044; }
 
 .galeria__item-1, .galeria__item-2, .galeria__item-3, .galeria__item-4, .galeria__item-5, .galeria__item-6, .galeria__item-7, .galeria__item-8, .galeria__item-9, .galeria__item-10 {
   display: flex;
@@ -541,7 +545,7 @@ input:checked + .slide-container .nav label {
 @media only screen and (min-width: 160px) {
   h1 {
     color: #e00303;
-    font-family: 'Teko';
+    font-family: "kanit";
     text-align: center;
     font-size: 400%; }
   .contenedor {
@@ -584,7 +588,7 @@ input:checked + .slide-container .nav label {
 @media only screen and (min-width: 320px) {
   h1 {
     color: #e00303;
-    font-family: 'Teko';
+    font-family: "kanit";
     text-align: center;
     font-size: 400%; }
   .contenedor {

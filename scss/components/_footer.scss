@@ -47,13 +47,13 @@ footer {
 /*Formulario*/
 .email {
     color: $first-color;
-    font-family: 'Teko';
+    font-family: $font;
     text-align: center;
     font-size: 100%;
 }
 
 .text_email {
-    font-family: 'Teko';
+    font-family: $font;
     text-align: center;
     font-size: 120%;
 }
@@ -63,7 +63,7 @@ footer {
     color: $white-color;
     padding: 16px 20px;
     margin: 8px 0;
-    font-family: 'Teko';
+    font-family: $font;
     font-size: 150%;
     border: none;
     cursor: pointer;
@@ -78,5 +78,5 @@ footer {
 
 .form_email {
     text-align: center;
-    font-family: 'Teko';
+    font-family: $font;
 }

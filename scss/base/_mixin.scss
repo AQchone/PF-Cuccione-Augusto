@@ -10,3 +10,9 @@
     justify-content: $jc;
 }
 
+@mixin index ($bg,$bgimg,$bgsz,$bgatt){
+    background-color: $bg;
+    background-image: $bgimg;
+    background-size: $bgsz;
+    background-attachment: $bgatt;
+}

@@ -6,7 +6,8 @@
 .body{
     background-color: $black-color;
     background-image: url(../assets/fotos/pexels-dmitry-demidov-3784566.webp);
-    background-size: 200%;
+    background-position: 50%;
+    background-size: 100%;
     background-attachment: fixed;
 }
 
@@ -58,6 +59,6 @@ img {
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    font-family: 'teko';
+    font-family: $font;
 }
 

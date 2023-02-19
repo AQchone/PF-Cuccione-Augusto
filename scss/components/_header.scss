@@ -1,12 +1,12 @@
 /*colores y fonts principales*/
 .firstcolor {
     color: $first-color;
-    font-family: 'Teko';
+    font-family: $font;
 }
 
 .secondcolor {
     color: $second-color;
-    font-family: 'Teko';
+    font-family: $font;
 }
 
 header {
@@ -15,7 +15,7 @@ header {
 
 p {
     color: $second-color;
-    font-family: 'Teko';
+    font-family: $font;
     text-align: center;
     font-size: 120%;
 }
@@ -24,7 +24,7 @@ p {
 
 h1 {
     color: $first-color;
-    font-family: 'Teko';
+    font-family: $font;
     text-align: center;
     font-size: 500%;
 
@@ -32,14 +32,14 @@ h1 {
 
 h2 {
     color: $first-color;
-    font-family: 'Teko';
+    font-family: $font;
     text-align: center;
     font-size: 300%;
 }
 
 h3 {
     color: $alt-color;
-    font-family: 'Teko';
+    font-family: $font;
     font-size: 200%;
 }
 
@@ -61,7 +61,7 @@ nav ul li {
     padding-top: 15px;
     padding-bottom: 15px;
     text-decoration: none;
-    font-family: 'Teko';
+    font-family: $font;
 
 }
 
