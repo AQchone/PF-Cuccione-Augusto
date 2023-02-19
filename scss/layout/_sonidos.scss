@@ -28,7 +28,7 @@ padding-top: 2rem; }
     padding: 20px;
     grid-auto-flow: dense;
     background-color: #00000044; }
-    .galeria__item-1, .galeria__item-2, .galeria__item-3, .galeria__item-4, .galeria__item-5, .galeria__item-6, .galeria__item-7, .galeria__item-8, .galeria__item-9, .galeria__item-10 {
+    .galeria__item-1, .galeria__item-2, .galeria__item-3, .galeria__item-4, .galeria__item-5, .galeria__item-6, .galeria__item-7, .galeria__item-8, .galeria__item-9, .galeria__item-10, .galeria__item-11, .galeria__item-12 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,6 +57,12 @@ padding-top: 2rem; }
     background-color: $first-color; }
     .galeria__item-9 {
     background-color: $alt-color; }
+    .galeria__item-10{
+    background-color: $first-color;}
+    .galeria__item-11{
+    background-color: $alt-color;}
+    .galeria__item-12{
+    background-color: $first-color;}
 
 .wide {
     grid-column: span 2; }
