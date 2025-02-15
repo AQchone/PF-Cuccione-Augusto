@@ -239,6 +239,12 @@ footer {
   padding: 10px; }
 
 /** Index Hub **/
+
+.logoSound {
+  width: 20%;
+  height: auto;
+}
+
 .contenedor {
   background-size: cover;
   background: linear-gradient(180deg, #00000000, #000000);
